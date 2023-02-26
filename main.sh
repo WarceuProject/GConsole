@@ -16,7 +16,7 @@ main(){
     ############################
     #../GConsole
     GCTermux(){ #__for termux
-        packages="python python2 wget curl openssh"
+        packages="python python2 wget curl openssh figlet"
         modules="requirements.txt"
         clear
         echo -e "$def [*]$cyn Reloading the terminal..."
